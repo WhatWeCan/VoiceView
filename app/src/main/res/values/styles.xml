@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="VoiceView">
+        <attr name="gapDegree" format="float" />
+        <attr name="partNums" format="integer" />
+        <attr name="leftDegree" format="float" />
+        <attr name="circleWidth" format="integer" />
+        <attr name="defaultPartNum" format="integer" />
+        <attr name="bgColor" format="color|dimension" />
+        <attr name="foreColor" format="color|dimension" />
+        <attr name="iconVoice" format="integer|reference" />
+    </declare-styleable>
+
+</resources>
